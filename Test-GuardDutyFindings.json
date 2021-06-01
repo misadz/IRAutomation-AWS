@@ -1,0 +1,126 @@
+[
+  {
+    "schemaVersion": "2.0",
+    "accountId": "000000000000",
+    "region": "ap-northeast-2",
+    "partition": "aws",
+    "id": "b6bc7bbbeaf1d74b88fa5f161cabdfcb",
+    "arn": "arn:aws:guardduty:ap-northeast-2:000000000000:detector/3cbb0f730627df6635c3bd4363a8e9a6/finding/b6bc7bbbeaf1d74b88fa5f161cabdfcb",
+    "type": "UnauthorizedAccess:EC2/SSHBruteForce",
+    "resource": {
+      "resourceType": "Instance",
+      "instanceDetails": {
+        "instanceId": "i-02bd22d56a353de42",
+        "instanceType": "t3.medium",
+        "launchTime": "2021-04-14T17:22:36Z",
+        "platform": null,
+        "productCodes": [],
+        "iamInstanceProfile": {
+          "arn": "arn:aws:iam::000000000000:instance-profile/Role_for_Forensic_Instance",
+          "id": "AIPAY75QPZF6UJVK3MWSL"
+        },
+        "networkInterfaces": [
+          {
+            "ipv6Addresses": [],
+            "networkInterfaceId": "eni-08f2cf63e2c815571",
+            "privateDnsName": "ip-172-31-61-178.ap-northeast-2.compute.internal",
+            "privateIpAddress": "172.31.61.178",
+            "privateIpAddresses": [
+              {
+                "privateDnsName": "ip-172-31-61-178.ap-northeast-2.compute.internal",
+                "privateIpAddress": "172.31.61.178"
+              }
+            ],
+            "subnetId": "subnet-08881c6b4c9902337",
+            "vpcId": "vpc-0e0ffb1e85958b107",
+            "securityGroups": [
+              {
+                "groupName": "ir-ForensicInstanceSecurityGroup-UFC4RMS0LI7F",
+                "groupId": "sg-00734f7107691ca37"
+              }
+            ],
+            "publicDnsName": "ec2-3-35-104-42.ap-northeast-2.compute.amazonaws.com",
+            "publicIp": "3.35.104.42"
+          }
+        ],
+        "outpostArn": null,
+        "tags": [
+          {
+            "key": "Owner",
+            "value": "hs"
+          },
+          {
+            "key": "IsInstanceTested",
+            "value": "Yes"
+          },
+          {
+            "key": "Name",
+            "value": "ir_InstanceUnderForensics"
+          },
+          {
+            "key": "Project",
+            "value": "ir"
+          }
+        ],
+        "instanceState": "running",
+        "availabilityZone": "ap-northeast-2d",
+        "imageId": "ami-07464b2b9929898f8",
+        "imageDescription": "Amazon Linux 2 AMI 2.0.20210326.0 x86_64 HVM gp2"
+      }
+    },
+    "service": {
+      "serviceName": "guardduty",
+      "detectorId": "3cbb0f730627df6635c3bd4363a8e9a6",
+      "action": {
+        "actionType": "NETWORK_CONNECTION",
+        "networkConnectionAction": {
+          "connectionDirection": "INBOUND",
+          "remoteIpDetails": {
+            "ipAddressV4": "114.67.74.5",
+            "organization": {
+              "asn": "4812",
+              "asnOrg": "China Telecom (Group)",
+              "isp": "China Telecom Shanghai",
+              "org": "China Telecom Shanghai"
+            },
+            "country": {
+              "countryName": "China"
+            },
+            "city": {
+              "cityName": ""
+            },
+            "geoLocation": {
+              "lat": 34.7732,
+              "lon": 113.722
+            }
+          },
+          "remotePortDetails": {
+            "port": 32954,
+            "portName": "Unknown"
+          },
+          "localPortDetails": {
+            "port": 22,
+            "portName": "SSH"
+          },
+          "protocol": "TCP",
+          "blocked": false,
+          "localIpDetails": {
+            "ipAddressV4": "172.31.61.178"
+          }
+        }
+      },
+      "resourceRole": "TARGET",
+      "additionalInfo": {},
+      "evidence": null,
+      "eventFirstSeen": "2021-04-22T02:40:11Z",
+      "eventLastSeen": "2021-04-22T02:43:06Z",
+      "archived": false,
+      "count": 1
+    },
+    "severity": 2,
+    "createdAt": "2021-04-22T02:45:29.187Z",
+    "updatedAt": "2021-04-22T02:45:29.187Z",
+    "title": "114.67.74.5 is performing SSH brute force attacks against i-02bd22d56a353de42.",
+    "description": "114.67.74.5 is performing SSH brute force attacks against i-02bd22d56a353de42. Brute force attacks are used to gain unauthorized access to your instance by guessing the SSH password."
+  }
+]
