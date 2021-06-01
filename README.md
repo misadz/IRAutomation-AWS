@@ -95,4 +95,4 @@ Rapid Automation Incident Response on AWS workload
     Open the Security Account in lambda [ 0-sec-ir-0-parseEventAndStartForensic ] Lambda function create a test with the JSON content and run
 
 
-
+Contect E-mail : misadz@naver.com/ misadz1@gmail.com
