@@ -74,7 +74,7 @@ Next, after the Stack is configured, configure the automation to be performed th
 ![image](https://user-images.githubusercontent.com/10083600/120258921-e326ff00-c2cd-11eb-9b53-0d0f625e09ba.png)
 
 After the code is configured, check the Lambda Function to see if the stepping code is applied.
-![image](https://user-images.githubusercontent.com/10083600/120258389-e8d01500-c2cc-11eb-8e41-f7f758dc9d85.png)
+![image](https://user-images.githubusercontent.com/10083600/120258968-fa65ec80-c2cd-11eb-9444-7d4e5cc7e1ec.png)
 
 Among the steps for response after the automation configuration, the Isolation step automates the movement of the target account to a separate security group other than the service section for network isolation when an incident occurs.
 
