@@ -41,7 +41,8 @@ The progress issue history is sent to Slack notifications, and the entire proces
 
 2. ARCITECTURE SOLUTION
 
-![image](https://user-images.githubusercontent.com/10083600/120257574-71e64c80-c2cb-11eb-9ec6-40cba1984af8.png)
+![image](https://user-images.githubusercontent.com/10083600/120258529-30ef3780-c2cd-11eb-9209-160f7e99cc34.png)
+
 
 3. Pre-requisties
  Activate AWS GuardDuty on your AWS account
