@@ -58,12 +58,24 @@ Security Account is the GaurdDuty Master account in the OU configuration.
 Security personnel perform automated forensics on target accounts for detection and forensics in the event of an incident.
 
 Next, upload the code to the S3 Bucket for Lambda configuration and deploy.
- 
-![image](https://user-images.githubusercontent.com/10083600/120258197-89720500-c2cc-11eb-968a-5c6ef2c4a6b3.png)
-Here is the code I uploaded: ![image](https://user-images.githubusercontent.com/10083600/120258209-8f67e600-c2cc-11eb-90c8-8e268b214d78.png)
+![image](https://user-images.githubusercontent.com/10083600/120258306-bd4d2a80-c2cc-11eb-9fdd-507ea5bb8938.png)
+
+Here is the code I uploaded: 
+![image](https://user-images.githubusercontent.com/10083600/120258295-b6beb300-c2cc-11eb-90e1-55d61c4d663d.png)
 
 After uploading the code, copy the S3 URL of the YAML file to configure CloudFormation Stack.
-![image](https://user-images.githubusercontent.com/10083600/120258220-955dc700-c2cc-11eb-96a3-ce169a00cffd.png)
+![image](https://user-images.githubusercontent.com/10083600/120258315-c3430b80-c2cc-11eb-980c-58126de67dcf.png)
+
+Next, after the Stack is configured, configure the automation to be performed through STS Assume role the target account.
+![image](https://user-images.githubusercontent.com/10083600/120258362-d6ee7200-c2cc-11eb-9cba-19dfb88a630f.png)
+
+After the code is configured, check the Lambda Function to see if the stepping code is applied.
+![image](https://user-images.githubusercontent.com/10083600/120258389-e8d01500-c2cc-11eb-8e41-f7f758dc9d85.png)
+
+Among the steps for response after the automation configuration, the Isolation step automates the movement of the target account to a separate security group other than the service section for network isolation when an incident occurs.
+
+Enter the quarantine SG of the Target Account by modifying the Environment in step 4 in the Lambda Function as shown below
+![image](https://user-images.githubusercontent.com/10083600/120258420-f71e3100-c2cc-11eb-855f-109fcdd0eef8.png)
 
 
 
