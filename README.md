@@ -91,3 +91,4 @@ Replace the accountId [ 000000000000 ] by one of the Target Account Account ID
 Open the Security Account in lambda [ 0-sec-ir-0-parseEventAndStartForensic ] Lambda function create a test with the JSON content and run
 
 
+
