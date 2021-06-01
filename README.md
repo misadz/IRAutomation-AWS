@@ -43,6 +43,9 @@ The progress issue history is sent to Slack notifications, and the entire proces
 
 ![image](https://user-images.githubusercontent.com/10083600/120258529-30ef3780-c2cd-11eb-9209-160f7e99cc34.png)
 
+Target OS - AMAZON LINUX IMAGE
+Finding Trigger - Guard Duty & API GateWay
+Notice - Slack Channel
 
 3. Pre-requisties
  Activate AWS GuardDuty on your AWS account
@@ -79,7 +82,7 @@ After the code is configured, check the Lambda Function to see if the stepping c
 Among the steps for response after the automation configuration, the Isolation step automates the movement of the target account to a separate security group other than the service section for network isolation when an incident occurs.
 
 Enter the quarantine SG of the Target Account by modifying the Environment in step 4 in the Lambda Function as shown below
-![image](https://user-images.githubusercontent.com/10083600/120258420-f71e3100-c2cc-11eb-855f-109fcdd0eef8.png)
+![image](https://user-images.githubusercontent.com/10083600/120259000-0ce02600-c2ce-11eb-9fac-ea37f7077c79.png)
 
 
 
