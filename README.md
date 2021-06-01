@@ -60,7 +60,8 @@ Security personnel perform automated forensics on target accounts for detection 
 
 Next, upload the code to the S3 Bucket for Lambda configuration and deploy.
 
-![image](https://user-images.githubusercontent.com/10083600/120258306-bd4d2a80-c2cc-11eb-9fdd-507ea5bb8938.png)
+![image](https://user-images.githubusercontent.com/10083600/120258684-77449680-c2cd-11eb-9717-1dd9cdcbe39c.png)
+
 
 Here is the code I uploaded: 
 
