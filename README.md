@@ -53,11 +53,18 @@ The progress issue history is sent to Slack notifications, and the entire proces
 * If you choose to enable VPC Flow Logs to S3, have a bucket ready for it
 * Prepare a S3 bucket where the outputs of the forensic analysis will be stored.
 
-4. Deplooy
+4. Deploy
 Security Account is the GaurdDuty Master account in the OU configuration.
 Security personnel perform automated forensics on target accounts for detection and forensics in the event of an incident.
 
+Next, upload the code to the S3 Bucket for Lambda configuration and deploy.
  
+![image](https://user-images.githubusercontent.com/10083600/120258197-89720500-c2cc-11eb-968a-5c6ef2c4a6b3.png)
+Here is the code I uploaded: ![image](https://user-images.githubusercontent.com/10083600/120258209-8f67e600-c2cc-11eb-90c8-8e268b214d78.png)
 
- 
-![image](https://user-images.githubusercontent.com/10083600/120258104-69424600-c2cc-11eb-9b07-9ab7e5cea247.png)
+After uploading the code, copy the S3 URL of the YAML file to configure CloudFormation Stack.
+![image](https://user-images.githubusercontent.com/10083600/120258220-955dc700-c2cc-11eb-96a3-ce169a00cffd.png)
+
+
+
+
