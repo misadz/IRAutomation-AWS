@@ -68,7 +68,7 @@ Here is the code I uploaded:
 ![image](https://user-images.githubusercontent.com/10083600/120258295-b6beb300-c2cc-11eb-90e1-55d61c4d663d.png)
 
 After uploading the code, copy the S3 URL of the YAML file to configure CloudFormation Stack.
-![image](https://user-images.githubusercontent.com/10083600/120258315-c3430b80-c2cc-11eb-980c-58126de67dcf.png)
+![image](https://user-images.githubusercontent.com/10083600/120258836-b70b7e00-c2cd-11eb-9cc1-9740dfe13711.png)
 
 Next, after the Stack is configured, configure the automation to be performed through STS Assume role the target account.
 ![image](https://user-images.githubusercontent.com/10083600/120258362-d6ee7200-c2cc-11eb-9cba-19dfb88a630f.png)
