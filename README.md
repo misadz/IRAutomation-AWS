@@ -1,11 +1,11 @@
 # IRAutomation-AWS
 Rapid Automation Incident Response on AWS workload
 
-1.	Instruction 	
+1.Instruction 	
 Security teams need to quickly detect, quickly recognize incidents, and respond to prevent spread through
 notifications of many breach threats occurring in AWS workloads
 
-1.1 Necessity 
+  1.1 Necessity 
 
 The security team should use a number of 3rd party solutions in with AWS security services to quickly perform the detection, isolation, and analysis procedures in case of an AWS workload incident.
 However, since the analysis and response procedures are not automated after the detection stage, there are difficulties in the analysis and response.
@@ -40,9 +40,9 @@ The progress issue history is sent to Slack notifications, and the entire proces
 
 
 2. ARCITECTURE SOLUTION
+
 ![image](https://user-images.githubusercontent.com/10083600/120257574-71e64c80-c2cb-11eb-9ec6-40cba1984af8.png)
 
-2. ARCITECTURE SOLUTION
 
 
 
