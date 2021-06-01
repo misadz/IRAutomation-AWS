@@ -71,7 +71,7 @@ After uploading the code, copy the S3 URL of the YAML file to configure CloudFor
 ![image](https://user-images.githubusercontent.com/10083600/120258836-b70b7e00-c2cd-11eb-9cc1-9740dfe13711.png)
 
 Next, after the Stack is configured, configure the automation to be performed through STS Assume role the target account.
-![image](https://user-images.githubusercontent.com/10083600/120258362-d6ee7200-c2cc-11eb-9cba-19dfb88a630f.png)
+![image](https://user-images.githubusercontent.com/10083600/120258921-e326ff00-c2cd-11eb-9b53-0d0f625e09ba.png)
 
 After the code is configured, check the Lambda Function to see if the stepping code is applied.
 ![image](https://user-images.githubusercontent.com/10083600/120258389-e8d01500-c2cc-11eb-8e41-f7f758dc9d85.png)
