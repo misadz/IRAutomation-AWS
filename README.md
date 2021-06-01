@@ -58,9 +58,11 @@ Security Account is the GaurdDuty Master account in the OU configuration.
 Security personnel perform automated forensics on target accounts for detection and forensics in the event of an incident.
 
 Next, upload the code to the S3 Bucket for Lambda configuration and deploy.
+
 ![image](https://user-images.githubusercontent.com/10083600/120258306-bd4d2a80-c2cc-11eb-9fdd-507ea5bb8938.png)
 
 Here is the code I uploaded: 
+
 ![image](https://user-images.githubusercontent.com/10083600/120258295-b6beb300-c2cc-11eb-90e1-55d61c4d663d.png)
 
 After uploading the code, copy the S3 URL of the YAML file to configure CloudFormation Stack.
