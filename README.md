@@ -85,9 +85,8 @@ Enter the quarantine SG of the Target Account by modifying the Environment in st
 ![image](https://user-images.githubusercontent.com/10083600/120259000-0ce02600-c2ce-11eb-9fac-ea37f7077c79.png)
 
 5. Test
-
-  Copy the provided [ Test-GuardDutyFindings.json ] file
-  Replace the instance ID [ i-02bd22d56a353de42 ] by one of the Target Account instance ID
+Copy the provided [ Test-GuardDutyFindings.json ] file.
+Replace the instance ID [ i-02bd22d56a353de42 ] by one of the Target Account instance ID
   Replace the accountId [ 000000000000 ] by one of the Target Account Account ID
   Open the Security Account in lambda [ 0-sec-ir-0-parseEventAndStartForensic ] Lambda function create a test with the JSON content and run
 
