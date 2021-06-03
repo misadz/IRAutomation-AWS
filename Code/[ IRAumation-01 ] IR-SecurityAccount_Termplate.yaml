@@ -1,6 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: Environment YAML template using create a production VPC for the Incident Response and Forensic by Woowabrothers IR Automation Project
+Description: Environment YAML template using create a production VPC for the Incident Response and Forensic by IR Automation Project
 # This sample, non-production-ready template describes an Amazon environment source code by cloudformation.
 # © 2021 Amazon Web Services, Inc. or its affiliates. All Rights Reserved.
 # This AWS Content is provided subject to the terms of the AWS Customer Agreement available at
