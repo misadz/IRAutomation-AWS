@@ -77,7 +77,7 @@ Rapid Automation Incident Response on AWS workload
 ![image](https://user-images.githubusercontent.com/10083600/120258836-b70b7e00-c2cd-11eb-9cc1-9740dfe13711.png)
 
     Next, after the Stack is configured, configure the automation to be performed through STS Assume role the target account.
-![image](https://user-images.githubusercontent.com/10083600/120258921-e326ff00-c2cd-11eb-9b53-0d0f625e09ba.png)
+![image]![Screen Shot 2022-06-21 at 1 19 44 PM](https://user-images.githubusercontent.com/10083600/174716147-55413533-555c-4d87-a9df-122914fde878.png)
 
     After the code is configured, check the Lambda Function to see if the stepping code is applied.
 ![image](https://user-images.githubusercontent.com/10083600/120258968-fa65ec80-c2cd-11eb-9444-7d4e5cc7e1ec.png)
